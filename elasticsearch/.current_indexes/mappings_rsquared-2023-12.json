@@ -1,0 +1,21 @@
+{
+  "error": {
+    "root_cause": [
+      {
+        "type": "index_not_found_exception",
+        "reason": "no such index [rsquared-2023-12]",
+        "resource.type": "index_or_alias",
+        "resource.id": "rsquared-2023-12",
+        "index_uuid": "_na_",
+        "index": "rsquared-2023-12"
+      }
+    ],
+    "type": "index_not_found_exception",
+    "reason": "no such index [rsquared-2023-12]",
+    "resource.type": "index_or_alias",
+    "resource.id": "rsquared-2023-12",
+    "index_uuid": "_na_",
+    "index": "rsquared-2023-12"
+  },
+  "status": 404
+}
