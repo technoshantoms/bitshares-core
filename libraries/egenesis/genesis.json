@@ -6,13 +6,13 @@
                "parameters": [
                 [
                     0, {
-                        "fee": 530,
+                        "fee": 999,
                         "price_per_kbyte": 5789
                     }
                 ],
                 [
                     1, {
-                        "fee": 4000
+                        "fee": 500
                     }
                 ],
                 [
@@ -26,22 +26,19 @@
                     }
                 ],
                 [
-                    4, {
-
-                        "fee": 5000
-                    }
+                    4, {}
                 ],
                 [
                     5, {
-                        "basic_fee": 5000,
-                        "premium_fee": 5000,
+                        "basic_fee": 100,
+                        "premium_fee": 500,
                         "price_per_kbyte": 10000
                     }
                 ],
                 [
                     6, {
-                        "fee": 5000,
-                        "price_per_kbyte": 5000
+                        "fee": 195,
+                        "price_per_kbyte": 4052
                     }
                 ],
                 [
@@ -62,8 +59,8 @@
                 ],
                 [
                     10, {
-                        "symbol3": "999",
-                        "symbol4": "999",
+                        "symbol3": "999999",
+                        "symbol4": "715783",
                         "long_symbol": 90459,
                         "price_per_kbyte": 5789
                     }
@@ -97,7 +94,7 @@
                 ],
                 [
                     16, {
-                        "fee": 300000
+                        "fee": 3000000
                     }
                 ],
                 [
@@ -269,13 +266,8 @@
                 ],
                 [
                   52,{
-                    "fee": 5000,
+                    "fee": 500,
                     "fee_per_day": 500
-                  }
-               ],
-                [
-                  53,{
-                    "fee": 50000
                   }
                ],
                 [
@@ -383,7 +375,7 @@
             "scale": 10000
         },
     "block_interval": 3,
-    "maintenance_interval": 36000,
+    "maintenance_interval": 3600,
     "maintenance_skip_slots": 3,
     "committee_proposal_review_period": 0,
     "maximum_transaction_size": 409600,
@@ -400,7 +392,7 @@
     "lifetime_referrer_percent_of_fee": 3000,
     "cashback_vesting_period_seconds": 31536000,
     "cashback_vesting_threshold": 10000000,
-    "count_non_member_votes": true,
+    "count_non_member_votes": false,
     "allow_non_member_whitelists": false,
     "witness_pay_per_block": 1000,
     "worker_budget_per_day": "15000",
@@ -412,72 +404,72 @@
     "extensions": {
       "updatable_htlc_options": {
         "max_timeout_secs": 2592000,
-        "max_preimage_size": 1024000
+        "max_preimage_size": 10240
       },
-    "maker_fee_discount_percent": 960
+    "maker_fee_discount_percent": 9600
     }
   },
   "initial_accounts": [{
       "name": "dennis",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true,
       "is_system_account": true
     },{
       "name": "acloudbank",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true,
       "is_system_account": true
     },{
       "name": "osanya",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
       "name": "pbsa",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
       "name": "purity",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
       "name": "nderu",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
       "name": "simon",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
       "name": "imoo",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
       "name": "zakaria",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
       "name": "njoroge",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
       "name": "witness",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
       "name": "nathan",
-      "owner_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "owner_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     }
   ],
@@ -485,189 +477,359 @@
     {
       "accumulated_fees": 0,
       "collateral_records": [],
-      "description": "1 South Korean won",
+      "description": "1 United States dollar",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
-      "symbol": "KRW",
-      "asset_id":"1.3.1"
+      "symbol": "USD",
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.1"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 bitcoin",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
-      "precision": 8,
+      "precision": 9,
       "symbol": "BTC",
-      "asset_id":"1.3.2"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.2"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Turkish lira",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "TRY",
-      "asset_id":"1.3.3"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.3"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Singapore dollar",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "SGD",
-      "asset_id":"1.3.4"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.4"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Hong Kong dollar",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "HKD",
-      "asset_id":"1.3.5"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.5"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Russian ruble",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "RUB",
-      "asset_id":"1.3.6"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.6"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Swedish krona",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "SEK",
-      "asset_id":"1.3.7"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.7"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 New Zealand dollar",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "NZD",
-      "asset_id":"1.3.8"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.8"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Chinese yuan",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "CNY",
-      "asset_id":"1.3.9"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.9"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Mexican peso",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "MXN",
-      "asset_id":"1.3.10"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.10"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Canadian dollar",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "CAD",
-      "asset_id":"1.3.11"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.11"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Swiss franc",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "CHF",
-      "asset_id":"1.3.12"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.12"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Australian dollar",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "AUD",
-      "asset_id":"1.3.13"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.13"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 pound sterling",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "GBP",
-       "asset_id":"1.3.14"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.14"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 Japanese yen",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 2,
       "symbol": "JPY",
-      "asset_id":"1.3.15"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.15"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
       "description": "1 euro",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
       "symbol": "EUR",
-       "asset_id":"1.3.16"
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.16"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
       "accumulated_fees": 0,
       "collateral_records": [],
-      "description": "1 United States dollar",
+      "description": "1 South Korean won",
       "is_bitasset": false,
-      "issuer_name": "dennis",
+      "issuer_name": "acloudbank",
       "max_supply": "1000000000000000",
       "precision": 4,
-      "symbol": "USD",
-       "asset_id":"1.3.17"
+      "symbol": "KRW",
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.17"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
     },
     {
         "accumulated_fees": 0,
@@ -1851,28 +2013,6 @@
       "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
       "quote":{"amount":70,
       "asset_id":"1.3.71"}},
-      "whitelist_authorities":[],
-      "blacklist_authorities":[],
-      "whitelist_markets":[],
-      "blacklist_markets":[],
-      "extensions":[]
-      },
-      {
-
-        "accumulated_fees": 0,
-        "collateral_records": [],
-        "description": "KES is a derivative that tracks the real value of 1 Kenyan Shilling - The official currency of KENYA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
-        "is_bitasset": false,
-        "issuer_name": "acloudbank",
-        "max_supply": "1000000000000000",
-        "precision": 6,
-        "symbol": "KES",
-        "market_fee_percent":1,
-      "max_market_fee":"1000000000000000",
-      "issuer_permissions":161,
-      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
-      "quote":{"amount":14550,
-      "asset_id":"1.3.72"}},
       "whitelist_authorities":[],
       "blacklist_authorities":[],
       "whitelist_markets":[],
@@ -3402,7 +3542,7 @@
 
         "accumulated_fees": 0,
         "collateral_records": [],
-        "description": "XAU is a derivative that tracks the real value of 1 Gold - The official currency of ZZ08_Gold. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "description": "XAU is a derivative that tracks the real value of 1 Gram of Gold - The official currency of ZZ08_Gold. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
         "is_bitasset": false,
         "issuer_name": "acloudbank",
         "max_supply": "1000000000000000",
@@ -3412,7 +3552,7 @@
       "max_market_fee":"1000000000000000",
       "issuer_permissions":161,
       "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
-      "quote":{"amount":0.05405,
+      "quote":{"amount":1.8518,
       "asset_id":"1.3.142"}},
       "whitelist_authorities":[],
       "blacklist_authorities":[],
@@ -3623,8 +3763,8 @@
 
   ],
   "initial_balances": [{
-      "owner": "CREDITFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama",
-      "asset_symbol": "CREDIT",
+      "owner": "KESFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama",
+      "asset_symbol": "KES",
       "amount": "9900000000000000"
     }
   ],
@@ -3632,37 +3772,37 @@
   "initial_active_witnesses": 5,
   "initial_witness_candidates": [{
       "owner_name": "dennis",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
       "owner_name": "osanya",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
       "owner_name": "pbsa",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
       "owner_name": "purity",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
       "owner_name": "nderu",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
       "owner_name": "simon",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
       "owner_name": "imoo",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
       "owner_name": "zakaria",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
       "owner_name": "njoroge",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
       "owner_name": "witness",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
       "owner_name": "nathan",
-      "block_signing_key": "CREDIT6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "block_signing_key": "KES6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     }
   ],
   "initial_committee_candidates": [{

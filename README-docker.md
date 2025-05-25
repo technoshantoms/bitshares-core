@@ -9,39 +9,79 @@ The `Dockerfile` performs the following steps:
 
 1. Obtain base image (phusion/baseimage:0.10.1)
 2. Install required dependencies using `apt-get`
-3. Add bitshares-core source code into container
+3. Add acloudbank-core source code into container
 4. Update git submodules
 5. Perform `cmake` with build type `Release`
 6. Run `make` and `make_install` (this will install binaries into `/usr/local/bin`
 7. Purge source code off the container
-8. Add a local bitshares user and set `$HOME` to `/var/lib/bitshares`
-9. Make `/var/lib/bitshares` and `/etc/bitshares` a docker *volume*
+8. Add a local acloudbank user and set `$HOME` to `/var/lib/acloudbank`
+9. Make `/var/lib/acloudbank` and `/etc/acloudbank` a docker *volume*
 10. Expose ports `8090` and `1776`
 11. Add default config from `docker/default_config.ini` and
     `docker/default_logging.ini`
 12. Add an entry point script
 13. Run the entry point script by default
 
+
+```sh
+$ docker build $RSQUARED_CORE_DIR -t local/rsquared-core:latest
+
+ docker-compose up ... then
+ 
+ - docker ps -aqf "name=^wss-ui_acloudbank-core_1$" //  UBUNTU
+  - docker ps -aqf "name=^acloudbank-core-acloudbank-core-1$" // MACOOS
+
+ this or next step
+
+docker container ls --all --quiet --no-trunc --filter "name=acb-core-bitshares-core-1"  // 1st step…
+
+cli_wallet--
+
+docker exec -it bbf57d1c9f73 /opt/acloudbank/bin/cli_wallet set_password. /// Working 2nd macos
+
+docker exec -it 04c99c768f35 /opt/acloudbank/bin/cli_wallet set_password ubuntu
+
+cli_wallet--
+
+docker exec -it bbf57d1c9f73 /usr/local/bin/cli_wallet unlock dennis /// Working 2nd step
+
+docker exec -it 2f77d4f18692 /usr/local/bin/etherium_keys unlock dennis /// Working 2nd step
+
+docker exec -it 7dbce3e8d135 /usr/local/bin/get_dev_key PRODUCTION  productionkey6 productionkey7 productionkey8 productionkey9 productionkey10 productionkey11
+
+dbg_make_uia acloudbank CARBONCRED //Command line token creation
+
+issue_asset acloudbank 1000000 CARBONPESA "" true  //Command line token issuing
+
+
+preimage: 1iAztGVZVMaoFVG4P57f49TrXqR4f2 hash type: sha256
+
+hash: e060ff555f9b62208271e34651f6bc64c2b13a23d3219385f505240f67344ec4 preimage size: 30
+
+```
+
 The entry point simplifies the use of parameters for the `witness_node`
 (which is run by default when spinning up the container).
 
 ### Supported Environmental Variables
 
-* `$BITSHARESD_SEED_NODES`
-* `$BITSHARESD_RPC_ENDPOINT`
-* `$BITSHARESD_PLUGINS`
-* `$BITSHARESD_REPLAY`
-* `$BITSHARESD_RESYNC`
-* `$BITSHARESD_P2P_ENDPOINT`
-* `$BITSHARESD_WITNESS_ID`
-* `$BITSHARESD_PRIVATE_KEY`
-* `$BITSHARESD_TRACK_ACCOUNTS`
-* `$BITSHARESD_PARTIAL_OPERATIONS`
-* `$BITSHARESD_MAX_OPS_PER_ACCOUNT`
-* `$BITSHARESD_ES_NODE_URL`
-* `$BITSHARESD_TRUSTED_NODE`
+* `$ACLOUDBANKD_SEED_NODES`
+* `$ACLOUDBANKD_RPC_ENDPOINT`
+* `$ACLOUDBANKD_PLUGINS`
+* `$ACLOUDBANKD_REPLAY`
+* `$ACLOUDBANKD_RESYNC`
+* `$ACLOUDBANKD_P2P_ENDPOINT`
+* `$ACLOUDBANKD_WITNESS_ID`
+* `$ACLOUDBANKD_PRIVATE_KEY`
+* `$ACLOUDBANKD_TRACK_ACCOUNTS`
+* `$ACLOUDBANKD_PARTIAL_OPERATIONS`
+* `$ACLOUDBANKD_MAX_OPS_PER_ACCOUNT`
+* `$ACLOUDBANKD_ES_NODE_URL`
+* `$ACLOUDBANKD_TRUSTED_NODE`
 
 ### Default config
+
+
 
 The default configuration is:
 
@@ -61,35 +101,35 @@ With docker compose, multiple nodes can be managed with a single
     services:
      main:
       # Image to run
-      image: bitshares/bitshares-core:latest
+      image: acloudbank/acloudbank-core:latest
       # 
       volumes:
-       - ./docker/conf/:/etc/bitshares/
+       - ./docker/conf/:/etc/acloudbank/
       # Optional parameters
       environment:
-       - BITSHARESD_ARGS=--help
+       - ACLOUDBANKD_ARGS=--help
 
 
     version: '3'
     services:
      fullnode:
       # Image to run
-      image: bitshares/bitshares-core:latest
+      image: acloudbank/acloudbank-core:latest
       environment:
       # Optional parameters
       environment:
-       - BITSHARESD_ARGS=--help
+       - ACLOUDBANKD_ARGS=--help
       ports:
        - "0.0.0.0:8090:8090"
       volumes:
-      - "bitshares-fullnode:/var/lib/bitshares"
+      - "acloudbank-fullnode:/var/lib/acloudbank"
 
 
 # Docker Hub
 
 This container is properly registered with docker hub under the name:
 
-* [bitshares/bitshares-core](https://hub.docker.com/r/bitshares/bitshares-core/)
+* [acloudbank/acloudbank-core](https://hub.docker.com/r/acloudbank/acloudbank-core/)
 
 Going forward, every release tag as well as all pushes to `develop` and
 `testnet` will be built into ready-to-run containers, there.
@@ -104,24 +144,24 @@ version: '3'
 services:
 
  fullnode:
-  image: bitshares/bitshares-core:latest
+  image: acloudbank/acloudbank-core:latest
   ports:
    - "0.0.0.0:8090:8090"
   volumes:
-  - "bitshares-fullnode:/var/lib/bitshares"
+  - "acloudbank-fullnode:/var/lib/acloudbank"
 
  delayed_node:
-  image: bitshares/bitshares-core:latest
+  image: acloudbank/acloudbank-core:latest
   environment:
-   - 'BITSHARESD_PLUGINS=delayed_node witness'
-   - 'BITSHARESD_TRUSTED_NODE=ws://fullnode:8090'
+   - 'ACLOUDBANKD_PLUGINS=delayed_node witness'
+   - 'ACLOUDBANKD_TRUSTED_NODE=ws://fullnode:8090'
   ports:
    - "0.0.0.0:8091:8090"
   volumes:
-  - "bitshares-delayed_node:/var/lib/bitshares"
+  - "acloudbank-delayed_node:/var/lib/acloudbank"
   links: 
   - fullnode
 
 volumes:
- bitshares-fullnode:
+ acloudbank-fullnode:
 ```

@@ -1,225 +1,389 @@
 {
-  "initial_timestamp": "2019-02-14T20:32:55",
-  "max_core_supply": "1000000000000000",
+  "initial_timestamp": "2022-02-14T20:32:55",
+  "max_core_supply": "9900000000000000",
   "initial_parameters": {
     "current_fees": {
-      "parameters": [[
-          0,{
-            "fee": 2000000,
-            "price_per_kbyte": 1000000
-          }
-        ],[
-          1,{
-            "fee": 500000
-          }
-        ],[
-          2,{
-            "fee": 0
-          }
-        ],[
-          3,{
-            "fee": 2000000
-          }
-        ],[
-          4,{}
-        ],[
-          5,{
-            "basic_fee": 500000,
-            "premium_fee": 200000000,
-            "price_per_kbyte": 100000
-          }
-        ],[
-          6,{
-            "fee": 2000000,
-            "price_per_kbyte": 100000
-          }
-        ],[
-          7,{
-            "fee": 300000
-          }
-        ],[
-          8,{
-            "membership_annual_fee": 200000000,
-            "membership_lifetime_fee": 1000000000
-          }
-        ],[
-          9,{
-            "fee": 50000000
-          }
-        ],[
-          10,{
-            "symbol3": "50000000000",
-            "symbol4": "30000000000",
-            "long_symbol": 500000000,
-            "price_per_kbyte": 10
-          }
-        ],[
-          11,{
-            "fee": 50000000,
-            "price_per_kbyte": 10
-          }
-        ],[
-          12,{
-            "fee": 50000000
-          }
-        ],[
-          13,{
-            "fee": 50000000
-          }
-        ],[
-          14,{
-            "fee": 2000000,
-            "price_per_kbyte": 100000
-          }
-        ],[
-          15,{
-            "fee": 2000000
-          }
-        ],[
-          16,{
-            "fee": 100000
-          }
-        ],[
-          17,{
-            "fee": 10000000
-          }
-        ],[
-          18,{
-            "fee": 50000000
-          }
-        ],[
-          19,{
-            "fee": 100000
-          }
-        ],[
-          20,{
-            "fee": 500000000
-          }
-        ],[
-          21,{
-            "fee": 2000000
-          }
-        ],[
-          22,{
-            "fee": 2000000,
-            "price_per_kbyte": 10
-          }
-        ],[
-          23,{
-            "fee": 2000000,
-            "price_per_kbyte": 10
-          }
-        ],[
-          24,{
-            "fee": 100000
-          }
-        ],[
-          25,{
-            "fee": 100000
-          }
-        ],[
-          26,{
-            "fee": 100000
-          }
-        ],[
-          27,{
-            "fee": 2000000,
-            "price_per_kbyte": 10
-          }
-        ],[
-          28,{
-            "fee": 0
-          }
-        ],[
-          29,{
-            "fee": 500000000
-          }
-        ],[
-          30,{
-            "fee": 2000000
-          }
-        ],[
-          31,{
-            "fee": 100000
-          }
-        ],[
-          32,{
-            "fee": 100000
-          }
-        ],[
-          33,{
-            "fee": 2000000
-          }
-        ],[
-          34,{
-            "fee": 500000000
-          }
-        ],[
-          35,{
-            "fee": 100000,
-            "price_per_kbyte": 10
-          }
-        ],[
-          36,{
-            "fee": 100000
-          }
-        ],[
-          37,{}
-        ],[
-          38,{
-            "fee": 2000000,
-            "price_per_kbyte": 10
-          }
-        ],[
-          39,{
-            "fee": 500000,
-            "price_per_output": 500000
-          }
-        ],[
-          40,{
-            "fee": 500000,
-            "price_per_output": 500000
-          }
-        ],[
-          41,{
-            "fee": 500000
-          }
-        ],[
-          42,{}
-        ],[
-          43,{
-            "fee": 2000000
-          }
-        ],[
-          44,{}
-        ],[
-          45,{
-            "fee": 2000000
-          }
-        ],[
-          46,{}
-        ],[
-          47,{
-            "fee": 2000000
-          }
-        ],[
-          48,{
-            "fee": 2000000
-          }
-        ]
-      ],
-      "scale": 10000
-    },
-    "block_interval": 5,
-    "maintenance_interval": 86400,
+               "parameters": [
+                [
+                    0, {
+                        "fee": 999,
+                        "price_per_kbyte": 5789
+                    }
+                ],
+                [
+                    1, {
+                        "fee": 500
+                    }
+                ],
+                [
+                    2, {
+                        "fee": 27899
+                    }
+                ],
+                [
+                    3, {
+                        "fee": 500
+                    }
+                ],
+                [
+                    4, {}
+                ],
+                [
+                    5, {
+                        "basic_fee": 100,
+                        "premium_fee": 500,
+                        "price_per_kbyte": 10000
+                    }
+                ],
+                [
+                    6, {
+                        "fee": 195,
+                        "price_per_kbyte": 4052
+                    }
+                ],
+                [
+                    7, {
+                        "fee": 0
+                    }
+                ],
+                [
+                    8, {
+                        "membership_annual_fee": 554702,
+                        "membership_lifetime_fee": 691293
+                    }
+                ],
+                [
+                    9, {
+                        "fee": 55470219
+                    }
+                ],
+                [
+                    10, {
+                        "symbol3": "999999",
+                        "symbol4": "715783",
+                        "long_symbol": 90459,
+                        "price_per_kbyte": 5789
+                    }
+                ],
+                [
+                    11, {
+                        "fee": 115,
+                        "price_per_kbyte": 4052
+                    }
+                ],
+                [
+                    12, {
+                        "fee": 289
+                    }
+                ],
+                [
+                    13, {
+                        "fee": 289
+                    }
+                ],
+                [
+                    14, {
+                        "fee": 5042099,
+                        "price_per_kbyte": 5789
+                    }
+                ],
+                [
+                    15, {
+                        "fee": 57088889
+                    }
+                ],
+                [
+                    16, {
+                        "fee": 3000000
+                    }
+                ],
+                [
+                    17, {
+                        "fee": 500
+                    }
+                ],
+                [
+                    18, {
+                        "fee": 500
+                    }
+                ],
+                [
+                    19, {
+                        "fee": 570
+                    }
+                ],
+                [
+                    20, {
+                        "fee": 500
+                    }
+                ],
+                [
+                    21, {
+                        "fee": 500
+                    }
+                ],
+                [
+                    22, {
+                        "fee": 500,
+                        "price_per_kbyte": 5000000
+                    }
+                ],
+                [
+                    23, {
+                        "fee": 500,
+                        "price_per_kbyte": 10000000
+                    }
+                ],
+                [
+                    24, {
+                        "fee": 0
+                    }
+                ],
+                [
+                    25, {
+                        "fee": 570
+                    }
+                ],
+                [
+                    26, {
+                        "fee": 500
+                    }
+                ],
+                [
+                    27, {
+                        "fee": 6000,
+                        "price_per_kbyte": 1000000
+                    }
+                ],
+                [
+                    28, {
+                        "fee": 0
+                    }
+                ],
+                [
+                    29, {
+                        "fee": 570
+                    }
+                ],
+                [
+                    30, {
+                        "fee": 570
+                    }
+                ],
+                [
+                    31, {
+                        "fee": 0
+                    }
+                ],
+                [
+                    32, {
+                        "fee": 570
+                    }
+                ],
+                [
+                    33, {
+                        "fee": 8155
+                    }
+                ],
+                [
+                    34, {
+                        "fee": 570
+                    }
+                ],
+                [
+                    35, {
+                        "fee": 500,
+                        "price_per_kbyte": 100000
+                    }
+                ],
+                [
+                    36, {
+                        "fee": 589
+                    }
+                ],
+                [
+                    37, {}
+                ],
+                [
+                    38, {
+                        "fee": 500,
+                        "price_per_kbyte": 10000
+                    }
+                ],
+                [
+                    39, {
+                        "fee": 550,
+                        "price_per_output": 800000
+                    }
+                ],
+                [
+                    40, {
+                        "fee": 80000
+                    }
+                ],
+                [
+                    41, {
+                        "fee": 80000
+                    }
+                ],
+                [
+                    43, {
+                        "fee": 500
+                    }
+                ],
+                [
+                    44, {}
+                ],
+                [
+                    45, {
+                        "fee": 500
+                    }
+                ],
+                [
+                    46, {}
+                ],
+                [
+                    47, {
+                        "fee": 500
+                    }
+                ],
+                [
+                  48, {
+                        "fee": 500
+                    }
+                ],
+                [
+                  49,{
+                     "fee": 500,
+                     "fee_per_day": 500000
+                     }
+                ],
+                [
+                50,{
+                "fee": 450,
+                 "fee_per_kb": 500
+                    }
+                ],
+                [
+                  52,{
+                    "fee": 500,
+                    "fee_per_day": 500
+                  }
+               ],
+                [
+                  54,{
+                    "fee": 500,
+                    "fee_per_day": 500
+                  }
+               ],[
+                  55,{
+                    "fee": 500,
+                    "fee_per_day": 500
+                  }
+               ],[
+                  56,{
+                    "fee": 500,
+                    "fee_per_day": 500
+                  }
+               ],[
+                  57,
+                  {
+                    "fee": 900
+                  }
+                ],[
+                  58,{
+                    "fee": 500,
+                    "fee_per_day": 500
+                  }
+                ], [
+                    59,
+                    {
+                      "fee": 900
+                    }
+                  ],
+                  [
+                    60,
+                    {
+                      "fee": 500
+                    }
+                  ],
+                    [
+                      61,
+                      {
+                        "fee": 0
+                      }
+                    ],
+                    [
+                      62,
+                      {
+                        "fee": 500
+                      }
+                    ],[
+                      63,
+                      {
+                        "fee": 500
+                      }
+                    ],[
+                      64,
+                      {
+                        "fee": 500
+                      }
+                    ],[
+                      65,
+                      {
+                        "fee": 500
+                      }
+                    ],[
+                      66,
+                      {
+                        "fee": 500
+                      }
+                    ],[
+                      67,
+                      {
+                        "fee": 500
+                      }
+                    ],[
+                      68,
+                      {
+                        "fee": 500
+                      }
+                    ],[
+                      69,
+                      {
+                        "fee": 1000
+                      }
+                    ],[
+                      70,
+                      {
+                        "fee": 500
+                      }
+                    ],[
+                      71,
+                      {
+                        "fee": 0
+                      }
+                    ],[
+                      72,
+                      {
+                        "fee": 500
+                      }
+                    ],[
+                      73, {"fee": 5000}
+                ]   
+            ],
+            "scale": 10000
+        },
+    "block_interval": 3,
+    "maintenance_interval": 3600,
     "maintenance_skip_slots": 3,
-    "committee_proposal_review_period": 1209600,
-    "maximum_transaction_size": 2048,
+    "committee_proposal_review_period": 0,
+    "maximum_transaction_size": 409600,
     "maximum_block_size": 2000000,
     "maximum_time_until_expiration": 86400,
     "maximum_proposal_lifetime": 2419200,
     "maximum_asset_whitelist_authorities": 10,
-    "maximum_asset_feed_publishers": 10,
+    "maximum_asset_feed_publishers": 25,
     "maximum_witness_count": 1001,
     "maximum_committee_count": 1001,
     "maximum_authority_membership": 10,
@@ -228,156 +392,3304 @@
     "lifetime_referrer_percent_of_fee": 3000,
     "cashback_vesting_period_seconds": 31536000,
     "cashback_vesting_threshold": 10000000,
-    "count_non_member_votes": true,
+    "count_non_member_votes": false,
     "allow_non_member_whitelists": false,
-    "witness_pay_per_block": 1000000,
-    "worker_budget_per_day": "50000000000",
+    "witness_pay_per_block": 1000,
+    "worker_budget_per_day": "15000",
     "max_predicate_opcode": 1,
     "fee_liquidation_threshold": 10000000,
     "accounts_per_fee_scale": 1000,
-    "account_fee_scale_bitshifts": 4,
+    "account_fee_scale_bitshifts": 0,
     "max_authority_depth": 2,
     "extensions": {
-        "updatable_htlc_options": {
-            "max_timeout_secs": 2592000,
-            "max_preimage_size": 1024000
-        }
+      "updatable_htlc_options": {
+        "max_timeout_secs": 2592000,
+        "max_preimage_size": 10240
+      },
+    "maker_fee_discount_percent": 9600
     }
   },
   "initial_accounts": [{
-      "name": "init0",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "name": "dennis",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "is_lifetime_member": true,
+      "is_system_account": true
+    },{
+      "name": "acloudbank",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "is_lifetime_member": true,
+      "is_system_account": true
+    },{
+      "name": "osanya",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
-      "name": "init1",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "name": "pbsa",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
-      "name": "init2",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "name": "purity",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
-      "name": "init3",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "name": "nderu",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
-      "name": "init4",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "name": "simon",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
-      "name": "init5",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "name": "imoo",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
-      "name": "init6",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "name": "zakaria",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
-      "name": "init7",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "name": "njoroge",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
-      "name": "init8",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "is_lifetime_member": true
-    },{
-      "name": "init9",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "is_lifetime_member": true
-    },{
-      "name": "init10",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "name": "witness",
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
       "is_lifetime_member": true
     },{
       "name": "nathan",
-      "owner_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "active_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
-      "is_lifetime_member": false
+      "owner_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "is_lifetime_member": true
     }
   ],
-  "initial_assets": [],
+    "initial_assets": [
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 South Korean won",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "KRW",
+      "asset_id":"1.3.1"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 bitcoin",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 8,
+      "symbol": "BTC",
+      "asset_id":"1.3.2"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Turkish lira",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "TRY",
+      "asset_id":"1.3.3"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Singapore dollar",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "SGD",
+      "asset_id":"1.3.4"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Hong Kong dollar",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "HKD",
+      "asset_id":"1.3.5"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Russian ruble",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "RUB",
+      "asset_id":"1.3.6"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Swedish krona",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "SEK",
+      "asset_id":"1.3.7"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 New Zealand dollar",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "NZD",
+      "asset_id":"1.3.8"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Chinese yuan",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "CNY",
+      "asset_id":"1.3.9"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Mexican peso",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "MXN",
+      "asset_id":"1.3.10"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Canadian dollar",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "CAD",
+      "asset_id":"1.3.11"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Swiss franc",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "CHF",
+      "asset_id":"1.3.12"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Australian dollar",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "AUD",
+      "asset_id":"1.3.13"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 pound sterling",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "GBP",
+       "asset_id":"1.3.14"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 Japanese yen",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 2,
+      "symbol": "JPY",
+      "asset_id":"1.3.15"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 euro",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "EUR",
+       "asset_id":"1.3.16"
+    },
+    {
+      "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "1 United States dollar",
+      "is_bitasset": false,
+      "issuer_name": "dennis",
+      "max_supply": "1000000000000000",
+      "precision": 4,
+      "symbol": "USD",
+       "asset_id":"1.3.17"
+    },
+    {
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "ALL is a derivative that tracks the real value of 1 Lek - The official currency of ALBANIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "ALL",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10050,
+      "asset_id":"1.3.18"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "AMD is a derivative that tracks the real value of 1 Armenian Dram - The official currency of ARMENIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "AMD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":39300,
+      "asset_id":"1.3.19"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "ANG is a derivative that tracks the real value of 1 Netherlands Antillean Guilder - The official currency of CURAÇAO and SINT MAARTEN (DUTCH PART). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "ANG",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":181,
+      "asset_id":"1.3.20"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "ARS is a derivative that tracks the real value of 1 Argentine Peso - The official currency of ARGENTINA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "ARS",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":35050,
+      "asset_id":"1.3.21"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "AWG is a derivative that tracks the real value of 1 Aruban Florin - The official currency of ARUBA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "AWG",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":180,
+      "asset_id":"1.3.22"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "AZN is a derivative that tracks the real value of 1 Azerbaijan Manat - The official currency of AZERBAIJAN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "AZN",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":170,
+      "asset_id":"1.3.23"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BAM is a derivative that tracks the real value of 1 Convertible Mark - The official currency of BOSNIA AND HERZEGOVINA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BAM",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":185,
+      "asset_id":"1.3.24"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BBD is a derivative that tracks the real value of 1 Barbados Dollar - The official currency of BARBADOS. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BBD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":200,
+      "asset_id":"1.3.25"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BDT is a derivative that tracks the real value of 1 Taka - The official currency of BANGLADESH. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BDT",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":11020,
+      "asset_id":"1.3.26"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BGN is a derivative that tracks the real value of 1 Bulgarian Lev - The official currency of BULGARIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BGN",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":185,
+      "asset_id":"1.3.27"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BHD is a derivative that tracks the real value of 1 Bahraini Dinar - The official currency of BAHRAIN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BHD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":35,
+      "asset_id":"1.3.28"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BIF is a derivative that tracks the real value of 1 Burundi Franc - The official currency of BURUNDI. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BIF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":284100,
+      "asset_id":"1.3.29"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BMD is a derivative that tracks the real value of 1 Bermudian Dollar - The official currency of BERMUDA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BMD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":100,
+      "asset_id":"1.3.30"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BOB is a derivative that tracks the real value of 1 Boliviano - The official currency of BOLIVIA (PLURINATIONAL STATE OF). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BOB",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":690,
+      "asset_id":"1.3.31"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BRL is a derivative that tracks the real value of 1 Brazilian Real - The official currency of BRAZIL. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BRL",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":500,
+      "asset_id":"1.3.32"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BWP is a derivative that tracks the real value of 1 Pula - The official currency of BOTSWANA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BWP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1367,
+      "asset_id":"1.3.33"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BYN is a derivative that tracks the real value of 1 Belarusian Ruble - The official currency of BELARUS. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BYN",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":250,
+      "asset_id":"1.3.34"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "BZD is a derivative that tracks the real value of 1 Belize Dollar - The official currency of BELIZE. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "BZD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":200,
+      "asset_id":"1.3.35"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "CDF is a derivative that tracks the real value of 1 Congolese Franc - The official currency of CONGO (THE DEMOCRATIC REPUBLIC OF THE). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "CDF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":249200,
+      "asset_id":"1.3.36"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "CLP is a derivative that tracks the real value of 1 Chilean Peso - The official currency of CHILE. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "CLP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":90100,
+      "asset_id":"1.3.37"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "COP is a derivative that tracks the real value of 1 Colombian Peso - The official currency of COLOMBIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "COP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":407300,
+      "asset_id":"1.3.38"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "CRC is a derivative that tracks the real value of 1 Costa Rican Colon - The official currency of COSTA RICA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "CRC",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":58550,
+      "asset_id":"1.3.39"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "CUC is a derivative that tracks the real value of 1 Peso Convertible - The official currency of CUBA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "CUC",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1,
+      "asset_id":"1.3.40"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "CUP is a derivative that tracks the real value of 1 Cuban Peso - The official currency of CUBA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "CUP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":2400,
+      "asset_id":"1.3.41"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "CVE is a derivative that tracks the real value of 1 Cabo Verde Escudo - The official currency of CABO VERDE. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "CVE",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":10410,
+      "asset_id":"1.3.42"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "CZK is a derivative that tracks the real value of 1 Czech Koruna - The official currency of CZECHIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "CZK",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":2300,
+      "asset_id":"1.3.43"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "DJF is a derivative that tracks the real value of 1 Djibouti Franc - The official currency of DJIBOUTI. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "DJF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":17800,
+      "asset_id":"1.3.44"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "DKK is a derivative that tracks the real value of 1 Danish Krone - The official currency of DENMARK, FAROE ISLANDS (THE), GREENLAND. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "DKK",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":700,
+      "asset_id":"1.3.45"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "DOP is a derivative that tracks the real value of 1 Dominican Peso - The official currency of DOMINICAN REPUBLIC (THE). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "DOP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":5650,
+      "asset_id":"1.3.46"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "DZD is a derivative that tracks the real value of 1 Algerian Dinar - The official currency of ALGERIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "DZD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":13720,
+      "asset_id":"1.3.47"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "EGP is a derivative that tracks the real value of 1 Egyptian Pound - The official currency of EGYPT. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "EGP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":3050,
+      "asset_id":"1.3.48"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "ERN is a derivative that tracks the real value of 1 Nakfa - The official currency of ERITREA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "ERN",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1500,
+      "asset_id":"1.3.49"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "ETB is a derivative that tracks the real value of 1 Ethiopian Birr - The official currency of ETHIOPIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "ETB",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":5515,
+      "asset_id":"1.3.50"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "FJD is a derivative that tracks the real value of 1 Fiji Dollar - The official currency of FIJI. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "FJD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":220,
+      "asset_id":"1.3.51"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "FKP is a derivative that tracks the real value of 1 Falkland Islands Pound - The official currency of FALKLAND ISLANDS. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "FKP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":79,
+      "asset_id":"1.3.52"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "GEL is a derivative that tracks the real value of 1 Lari - The official currency of GEORGIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "GEL",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":250,
+      "asset_id":"1.3.53"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "GHS is a derivative that tracks the real value of 1 Ghana Cedi - The official currency of GHANA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "GHS",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":70,
+      "asset_id":"1.3.54"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "GIP is a derivative that tracks the real value of 1 Gibraltar Pound - The official currency of GIBRALTAR. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "GIP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":79,
+      "asset_id":"1.3.55"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "GMD is a derivative that tracks the real value of 1 Dalasi - The official currency of GAMBIA (THE). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "GMD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":6455,
+      "asset_id":"1.3.56"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "GNF is a derivative that tracks the real value of 1 Guinean Franc - The official currency of GUINEA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "GNF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":859820,
+      "asset_id":"1.3.57"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "GTQ is a derivative that tracks the real value of 1 Quetzal - The official currency of GUATEMALA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "GTQ",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":780,
+      "asset_id":"1.3.58"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "GYD is a derivative that tracks the real value of 1 Guyana Dollar - The official currency of GUYANA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "GYD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":20900,
+      "asset_id":"1.3.59"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "HNL is a derivative that tracks the real value of 1 Lempira - The official currency of HONDURAS. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "HNL",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":2465,
+      "asset_id":"1.3.60"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "HRK is a derivative that tracks the real value of 1 Kuna - The official currency of CROATIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "HRK",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":710,
+      "asset_id":"1.3.61"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "HTG is a derivative that tracks the real value of 1 Gourde - The official currency of HAITI. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "HTG",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":13543,
+      "asset_id":"1.3.62"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "HUF is a derivative that tracks the real value of 1 Forint - The official currency of HUNGARY. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "HUF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":36839,
+      "asset_id":"1.3.63"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "IDR is a derivative that tracks the real value of 1 Rupiah - The official currency of INDONESIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "IDR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1548800,
+      "asset_id":"1.3.64"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "ILS is a derivative that tracks the real value of 1 New Israeli Sheqel - The official currency of ISRAEL and STATE OF PALESTINE. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "ILS",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":377,
+      "asset_id":"1.3.65"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "INR is a derivative that tracks the real value of 1 Indian Rupee - The official currency of BHUTAN and INDIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "INR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":8310,
+      "asset_id":"1.3.66"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "IQD is a derivative that tracks the real value of 1 Iraqi Dinar - The official currency of IRAQ. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "IQD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":130900,
+      "asset_id":"1.3.67"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "IRR is a derivative that tracks the real value of 1 Iranian Rial - The official currency of IRAN (ISLAMIC REPUBLIC OF). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "IRR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":5517,
+      "asset_id":"1.3.68"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "ISK is a derivative that tracks the real value of 1 Iceland Krona - The official currency of ICELAND. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "ISK",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":13740,
+      "asset_id":"1.3.69"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "JMD is a derivative that tracks the real value of 1 Jamaican Dollar - The official currency of JAMAICA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "JMD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":15550,
+      "asset_id":"1.3.70"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "JOD is a derivative that tracks the real value of 1 Jordanian Dinar - The official currency of JORDAN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "JOD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":70,
+      "asset_id":"1.3.71"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "KES is a derivative that tracks the real value of 1 Kenyan Shilling - The official currency of KENYA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "KES",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":14550,
+      "asset_id":"1.3.72"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "KGS is a derivative that tracks the real value of 1 Som - The official currency of KYRGYZSTAN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "KGS",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":8850,
+      "asset_id":"1.3.73"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "KHR is a derivative that tracks the real value of 1 Riel - The official currency of CAMBODIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "KHR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":412800,
+      "asset_id":"1.3.74"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "KMF is a derivative that tracks the real value of 1 Comorian Franc - The official currency of COMOROS (THE). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "KMF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":46450,
+      "asset_id":"1.3.75"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "KPW is a derivative that tracks the real value of 1 North Korean Won - The official currency of KOREA (THE DEMOCRATIC PEOPLE’S REPUBLIC OF). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "KPW",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":90000,
+      "asset_id":"1.3.76"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+        "accumulated_fees": 0,
+      "collateral_records": [],
+      "description": "KWD is a derivative that tracks the real value of 1 Kuwaiti Dinar - The official currency of KUWAIT. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+      "is_bitasset": false,
+      "issuer_name": "acloudbank",
+      "max_supply": "1000000000000000",
+      "precision": 6,
+      "symbol": "KWD",
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":29,
+      "asset_id":"1.3.77"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "KYD is a derivative that tracks the real value of 1 Cayman Islands Dollar - The official currency of CAYMAN ISLANDS (THE). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "KYD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":80,
+      "asset_id":"1.3.78"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "KZT is a derivative that tracks the real value of 1 Tenge - The official currency of KAZAKHSTAN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "KZT",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":47650,
+      "asset_id":"1.3.79"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "LAK is a derivative that tracks the real value of 1 Lao Kip - The official currency of LAO PEOPLE’S DEMOCRATIC REPUBLIC (THE). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "LAK",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":2036200,
+      "asset_id":"1.3.80"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "LBP is a derivative that tracks the real value of 1 Lebanese Pound - The official currency of LEBANON. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "LBP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1496700,
+      "asset_id":"1.3.81"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "LKR is a derivative that tracks the real value of 1 Sri Lanka Rupee - The official currency of SRI LANKA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "LKR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":32420,
+      "asset_id":"1.3.82"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "LRD is a derivative that tracks the real value of 1 Liberian Dollar - The official currency of LIBERIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "LRD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":186400,
+      "asset_id":"1.3.83"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "LSL is a derivative that tracks the real value of 1 Loti - The official currency of LESOTHO. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "LSL",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1850,
+      "asset_id":"1.3.84"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "LYD is a derivative that tracks the real value of 1 Libyan Dinar - The official currency of LIBYA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "LYD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":482,
+      "asset_id":"1.3.85"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MAD is a derivative that tracks the real value of 1 Moroccan Dirham - The official currency of MOROCCO and WESTERN SAHARA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MAD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1024,
+      "asset_id":"1.3.86"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MDL is a derivative that tracks the real value of 1 Moldovan Leu - The official currency of MOLDOVA (THE REPUBLIC OF). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MDL",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1820,
+      "asset_id":"1.3.87"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+  
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MKD is a derivative that tracks the real value of 1 Denar - The official currency of MACEDONIA (THE FORMER YUGOSLAV REPUBLIC OF). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MKD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":5810,
+      "asset_id":"1.3.88"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MMK is a derivative that tracks the real value of 1 Kyat - The official currency of MYANMAR. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MMK",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":210201,
+      "asset_id":"1.3.89"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MNT is a derivative that tracks the real value of 1 Tugrik - The official currency of MONGOLIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MNT",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":346011,
+      "asset_id":"1.3.90"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MOP is a derivative that tracks the real value of 1 Pataca - The official currency of MACAO. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MOP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":800,
+      "asset_id":"1.3.91"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MRU is a derivative that tracks the real value of 1 Ouguiya - The official currency of MAURITANIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MRU",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":3820,
+      "asset_id":"1.3.92"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MUR is a derivative that tracks the real value of 1 Mauritius Rupee - The official currency of MAURITIUS. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MUR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":4430,
+      "asset_id":"1.3.93"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MVR is a derivative that tracks the real value of 1 Rufiyaa - The official currency of MALDIVES. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MVR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1530,
+      "asset_id":"1.3.94"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MWK is a derivative that tracks the real value of 1 Malawi Kwacha - The official currency of MALAWI. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MWK",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":108300,
+      "asset_id":"1.3.95"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MYR is a derivative that tracks the real value of 1 Malaysian Ringgit - The official currency of MALAYSIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MYR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":462,
+      "asset_id":"1.3.96"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "MZN is a derivative that tracks the real value of 1 Mozambique Metical - The official currency of MOZAMBIQUE. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "MZN",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":6379,
+      "asset_id":"1.3.97"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "NAD is a derivative that tracks the real value of 1 Namibia Dollar - The official currency of NAMIBIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "NAD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1880,
+      "asset_id":"1.3.98"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "NGN is a derivative that tracks the real value of 1 Naira - The official currency of NIGERIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "NGN",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":77010,
+      "asset_id":"1.3.99"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "NIO is a derivative that tracks the real value of 1 Cordoba Oro - The official currency of NICARAGUA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "NIO",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":3660,
+      "asset_id":"1.3.100"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "NOK is a derivative that tracks the real value of 1 Norwegian Krone - The official currency of BOUVET ISLAND, NORWAY, SVALBARD AND JAN MAYEN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "NOK",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1060,
+      "asset_id":"1.3.101"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "NPR is a derivative that tracks the real value of 1 Nepalese Rupee - The official currency of NEPAL. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "NPR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":13307,
+      "asset_id":"1.3.102"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "OMR is a derivative that tracks the real value of 1 Rial Omani - The official currency of OMAN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "OMR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":36,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":2703,
+      "asset_id":"1.3.103"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "PAB is a derivative that tracks the real value of 1 Balboa - The official currency of PANAMA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "PAB",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":100,
+      "asset_id":"1.3.104"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "PEN is a derivative that tracks the real value of 1 Sol - The official currency of PERU. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "PEN",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":272,
+      "asset_id":"1.3.105"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "PGK is a derivative that tracks the real value of 1 Kina - The official currency of PAPUA NEW GUINEA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "PGK",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":360,
+      "asset_id":"1.3.106"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "PHP is a derivative that tracks the real value of 1 Philippine Piso - The official currency of PHILIPPINES (THE). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "PHP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":5662,
+      "asset_id":"1.3.107"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "PKR is a derivative that tracks the real value of 1 Pakistan Rupee - The official currency of PAKISTAN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "PKR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":28910,
+      "asset_id":"1.3.108"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "PLN is a derivative that tracks the real value of 1 Zloty - The official currency of POLAND. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "PLN",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":433,
+      "asset_id":"1.3.109"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "PYG is a derivative that tracks the real value of 1 Guarani - The official currency of PARAGUAY. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "PYG",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":730550,
+      "asset_id":"1.3.110"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "QAR is a derivative that tracks the real value of 1 Qatari Rial - The official currency of QATAR. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "QAR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":360,
+      "asset_id":"1.3.111"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "RON is a derivative that tracks the real value of 1 Romanian Leu - The official currency of ROMANIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "RON",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":465,
+      "asset_id":"1.3.112"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "RSD is a derivative that tracks the real value of 1 Serbian Dinar - The official currency of SERBIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "RSD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":110760,
+      "asset_id":"1.3.113"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "RWF is a derivative that tracks the real value of 1 Rwanda Franc - The official currency of RWANDA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "RWF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":121250,
+      "asset_id":"1.3.114"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "SAR is a derivative that tracks the real value of 1 Saudi Riyal - The official currency of SAUDI ARABIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "SAR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":370,
+      "asset_id":"1.3.115"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "SCR is a derivative that tracks the real value of 1 Seychelles Rupee - The official currency of SEYCHELLES. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+       "symbol": "SCR",
+       "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1407,
+      "asset_id":"1.3.116"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "SDG is a derivative that tracks the real value of 1 Sudanese Pound - The official currency of SUDAN (THE). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "SDG",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":60038,
+      "asset_id":"1.3.117"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "SLL is a derivative that tracks the real value of 1 Leone - The official currency of SIERRA LEONE. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "SLL",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":2253909,
+      "asset_id":"1.3.118"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "SOS is a derivative that tracks the real value of 1 Somali Shilling - The official currency of SOMALIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "SOS",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":57230,
+      "asset_id":"1.3.119"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "SRD is a derivative that tracks the real value of 1 Surinam Dollar - The official currency of SURINAME. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "SRD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":3824,
+      "asset_id":"1.3.120"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "SSP is a derivative that tracks the real value of 1 South Sudanese Pound - The official currency of SOUTH SUDAN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "SSP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":60144,
+      "asset_id":"1.3.121"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "SVC is a derivative that tracks the real value of 1 El Salvador Colon - The official currency of EL SALVADOR. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "SVC",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":873,
+      "asset_id":"1.3.122"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "SYP is a derivative that tracks the real value of 1 Syrian Pound - The official currency of SYRIAN ARAB REPUBLIC. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "SYP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1300140,
+      "asset_id":"1.3.123"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "SZL is a derivative that tracks the real value of 1 Lilangeni - The official currency of SWAZILAND. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "SZL",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1889,
+      "asset_id":"1.3.124"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "THB is a derivative that tracks the real value of 1 Baht - The official currency of THAILAND. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "THB",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":3641,
+      "asset_id":"1.3.125"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "TJS is a derivative that tracks the real value of 1 Somoni - The official currency of TAJIKISTAN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "TJS",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1095,
+      "asset_id":"1.3.126"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "TND is a derivative that tracks the real value of 1 Tunisian Dinar - The official currency of TUNISIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "TND",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":315,
+      "asset_id":"1.3.127"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "TOP is a derivative that tracks the real value of 1 Pa’anga - The official currency of TONGA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "TOP",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":234,
+      "asset_id":"1.3.128"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "TTD is a derivative that tracks the real value of 1 Trinidad and Tobago Dollar - The official currency of TRINIDAD AND TOBAGO. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "TTD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":674,
+      "asset_id":"1.3.129"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "TWD is a derivative that tracks the real value of 1 New Taiwan Dollar - The official currency of TAIWAN (PROVINCE OF CHINA). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "TWD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":3220,
+      "asset_id":"1.3.130"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "TZS is a derivative that tracks the real value of 1 Tanzanian Shilling - The official currency of TANZANIA, UNITED REPUBLIC OF. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "TZS",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":250635,
+      "asset_id":"1.3.131"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "UAH is a derivative that tracks the real value of 1 Hryvnia - The official currency of UKRAINE. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "UAH",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":3687,
+      "asset_id":"1.3.132"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "UGX is a derivative that tracks the real value of 1 Uganda Shilling - The official currency of UGANDA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "UGX",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":376625,
+      "asset_id":"1.3.133"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "UYU is a derivative that tracks the real value of 1 Peso Uruguayo - The official currency of URUGUAY. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "UYU",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":3820,
+      "asset_id":"1.3.134"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "UZS is a derivative that tracks the real value of 1 Uzbekistan Sum - The official currency of UZBEKISTAN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "UZS",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":2703,
+      "asset_id":"1.3.135"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "VEF is a derivative that tracks the real value of 1 Bolívar - The official currency of VENEZUELA (BOLIVARIAN REPUBLIC OF). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "VEF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":243153000,
+      "asset_id":"1.3.136"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "VND is a derivative that tracks the real value of 1 Dong - The official currency of VIET NAM. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "VND",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":2432130,
+      "asset_id":"1.3.137"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "VUV is a derivative that tracks the real value of 1 Vatu - The official currency of VANUATU. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "VUV",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":12105,
+      "asset_id":"1.3.138"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "WST is a derivative that tracks the real value of 1 Tala - The official currency of SAMOA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "WST",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":273,
+      "asset_id":"1.3.139"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "XAF is a derivative that tracks the real value of 1 CFA Franc BEAC - The official currency of CAMEROON, CENTRAL AFRICAN REPUBLIC (THE), CHAD, CONGO (THE), EQUATORIAL GUINEA, GABON. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "XAF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":61955,
+      "asset_id":"1.3.140"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "XAG is a derivative that tracks the real value of 1 Silver - The official currency of ZZ11_Silver. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "XAG",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":4.5,
+      "asset_id":"1.3.141"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "XAU is a derivative that tracks the real value of 1 Gram of Gold - The official currency of ZZ08_Gold. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "XAU",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1.8518,
+      "asset_id":"1.3.142"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "XCD is a derivative that tracks the real value of 1 East Caribbean Dollar. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+         "symbol": "XCD",
+         "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":2700,
+      "asset_id":"1.3.143"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]         
+
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "XDR is a derivative that tracks the real value of 1 SDR (Special Drawing Right) - The official currency of INTERNATIONAL MONETARY FUND (IMF). It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "XDR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":75,
+      "asset_id":"1.3.144"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "XOF is a derivative that tracks the real value of 1 CFA Franc BCEAO - The official currency of BENIN, BURKINA FASO, CÔTE D'IVOIRE, GUINEA-BISSAU, MALI, NIGER (THE), SENEGAL, TOGO. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "XOF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":61950,
+      "asset_id":"1.3.145"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "XPD is a derivative that tracks the real value of 1 Palladium - The official currency of ZZ09_Palladium. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "XPD",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":0.078,
+      "asset_id":"1.3.146"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "XPF is a derivative that tracks the real value of 1 CFP Franc - The official currency of FRENCH POLYNESIA, NEW CALEDONIA, WALLIS AND FUTUNA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "XPF",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":11266,
+      "asset_id":"1.3.147"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "XPT is a derivative that tracks the real value of 1 Platinum - The official currency of ZZ10_Platinum. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "XPT",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":0.10,
+      "asset_id":"1.3.148"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },  
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+         "description": "YER is a derivative that tracks the real value of 1 Yemeni Rial - The official currency of YEMEN. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+         "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+         "precision": 6,
+         "symbol": "YER",
+      "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":25030,
+      "asset_id":"1.3.150"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]         
+
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "ZAR is a derivative that tracks the real value of 1 Rand - The official currency of LESOTHO, NAMIBIA, SOUTH AFRICA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "ZAR",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":1888,
+      "asset_id":"1.3.151"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      },
+      {
+
+        "accumulated_fees": 0,
+        "collateral_records": [],
+        "description": "ZMW is a derivative that tracks the real value of 1 Zambian Kwacha - The official currency of ZAMBIA. It is 100% decentralized and backed by the collateral held by the blockchain in smart contract",
+        "is_bitasset": false,
+        "issuer_name": "acloudbank",
+        "max_supply": "1000000000000000",
+        "precision": 6,
+        "symbol": "ZMW",
+        "market_fee_percent":1,
+      "max_market_fee":"1000000000000000",
+      "issuer_permissions":161,
+      "core_exchange_rate":{"base":{"amount":1,"asset_id":"1.3.0"},
+      "quote":{"amount":2071,
+      "asset_id":"1.3.152"}},
+      "whitelist_authorities":[],
+      "blacklist_authorities":[],
+      "whitelist_markets":[],
+      "blacklist_markets":[],
+      "extensions":[]
+      }
+
+  ],
   "initial_balances": [{
-      "owner": "BTSFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama",
-      "asset_symbol": "BTS",
-      "amount": "1000000000000000"
+      "owner": "ACBFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama",
+      "asset_symbol": "ACB",
+      "amount": "9900000000000000"
     }
   ],
   "initial_vesting_balances": [],
-  "initial_active_witnesses": 11,
+  "initial_active_witnesses": 5,
   "initial_witness_candidates": [{
-      "owner_name": "init0",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "dennis",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
-      "owner_name": "init1",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "osanya",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
-      "owner_name": "init2",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "pbsa",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
-      "owner_name": "init3",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "purity",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
-      "owner_name": "init4",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "nderu",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
-      "owner_name": "init5",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "simon",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
-      "owner_name": "init6",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "imoo",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
-      "owner_name": "init7",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "zakaria",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
-      "owner_name": "init8",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "njoroge",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
-      "owner_name": "init9",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "witness",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     },{
-      "owner_name": "init10",
-      "block_signing_key": "BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+      "owner_name": "nathan",
+      "block_signing_key": "ACB6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
     }
   ],
   "initial_committee_candidates": [{
-      "owner_name": "init0"
+      "owner_name": "dennis"
     },{
-      "owner_name": "init1"
+      "owner_name": "osanya"
     },{
-      "owner_name": "init2"
+      "owner_name": "pbsa"
     },{
-      "owner_name": "init3"
+      "owner_name": "purity"
     },{
-      "owner_name": "init4"
+      "owner_name": "nderu"
     },{
-      "owner_name": "init5"
-    },{
-      "owner_name": "init6"
-    },{
-      "owner_name": "init7"
-    },{
-      "owner_name": "init8"
-    },{
-      "owner_name": "init9"
-    },{
-      "owner_name": "init10"
-    }
+        "owner_name": "simon"
+      },
+      {
+        "owner_name": "imoo"
+      },
+      {
+        "owner_name": "zakaria"
+      },
+      {
+        "owner_name": "njoroge"
+      },
+      {
+        "owner_name": "witness"
+      },
+      {
+        "owner_name": "nathan"
+      }
   ],
   "initial_worker_candidates": [],
   "immutable_parameters": {
-    "min_committee_member_count": 11,
-    "min_witness_count": 11,
+    "min_committee_member_count": 5,
+    "min_witness_count": 5,
     "num_special_accounts": 0,
     "num_special_assets": 0
   }

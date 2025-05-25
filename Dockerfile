@@ -34,8 +34,8 @@ RUN \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ADD . /bitshares-core
-WORKDIR /bitshares-core
+ADD . /acloudbank-core
+WORKDIR /acloudbank-core
 
 # Compile
 RUN \
@@ -58,14 +58,14 @@ RUN \
             /usr/local/bin && \
     #
     # Obtain version
-    mkdir -p /etc/bitshares && \
-    git rev-parse --short HEAD > /etc/bitshares/version && \
+    mkdir -p /etc/acloudbank && \
+    git rev-parse --short HEAD > /etc/acloudbank/version && \
     cd / && \
-    rm -rf /bitshares-core
+    rm -rf /acloudbank-core
 
 # The final image
 FROM phusion/baseimage:focal-1.2.0
-LABEL maintainer="The bitshares decentralized organisation"
+LABEL maintainer="The acloudbank decentralized organisation"
 ENV LANG=en_US.UTF-8
 
 # Install required libraries
@@ -77,27 +77,27 @@ RUN \
       libcurl4 \
       ca-certificates \
     && \
-    mkdir -p /etc/bitshares && \
+    mkdir -p /etc/acloudbank && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 COPY --from=build /usr/local/bin/* /usr/local/bin/
-COPY --from=build /etc/bitshares/version /etc/bitshares/
+COPY --from=build /etc/acloudbank/version /etc/acloudbank/
 
 WORKDIR /
-RUN groupadd -g 10001 bitshares
-RUN useradd -u 10000 -g bitshares -s /bin/bash -m -d /var/lib/bitshares --no-log-init bitshares
-ENV HOME /var/lib/bitshares
-RUN chown bitshares:bitshares -R /var/lib/bitshares
+RUN groupadd -g 10001 acloudbank
+RUN useradd -u 10000 -g acloudbank -s /bin/bash -m -d /var/lib/acloudbank --no-log-init acloudbank
+ENV HOME /var/lib/acloudbank
+RUN chown acloudbank:acloudbank -R /var/lib/acloudbank
 
 # default exec/config files
-ADD docker/default_config.ini /etc/bitshares/config.ini
-ADD docker/default_logging.ini /etc/bitshares/logging.ini
-ADD docker/bitsharesentry.sh /usr/local/bin/bitsharesentry.sh
-RUN chmod a+x /usr/local/bin/bitsharesentry.sh
+ADD docker/default_config.ini /etc/acloudbank/config.ini
+ADD docker/default_logging.ini /etc/acloudbank/logging.ini
+ADD docker/acloudbankentry.sh /usr/local/bin/acloudbankentry.sh
+RUN chmod a+x /usr/local/bin/acloudbankentry.sh
 
 # Volume
-VOLUME ["/var/lib/bitshares", "/etc/bitshares"]
+VOLUME ["/var/lib/acloudbank", "/etc/acloudbank"]
 
 # rpc service:
 EXPOSE 8090
@@ -108,7 +108,7 @@ EXPOSE 1776
 STOPSIGNAL SIGINT
 
 # Temporarily commented out due to permission issues caused by older versions, to be restored in a future version
-#USER bitshares:bitshares
+#USER acloudbank:acloudbank
 
 # default execute entry
-ENTRYPOINT ["/usr/local/bin/bitsharesentry.sh"]
+ENTRYPOINT ["/usr/local/bin/acloudbankentry.sh"]
