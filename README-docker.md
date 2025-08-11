@@ -22,44 +22,6 @@ The `Dockerfile` performs the following steps:
 12. Add an entry point script
 13. Run the entry point script by default
 
-
-```sh
-$ docker build $RSQUARED_CORE_DIR -t local/rsquared-core:latest
-
- docker-compose up ... then
- 
- - docker ps -aqf "name=^wss-ui_acloudbank-core_1$" //  UBUNTU
-  - docker ps -aqf "name=^acloudbank-core-acloudbank-core-1$" // MACOOS
-
- this or next step
-
-docker container ls --all --quiet --no-trunc --filter "name=acb-core-bitshares-core-1"  // 1st step…
-
-cli_wallet--
-
-docker exec -it bbf57d1c9f73 /opt/acloudbank/bin/cli_wallet set_password. /// Working 2nd macos
-
-docker exec -it 04c99c768f35 /opt/acloudbank/bin/cli_wallet set_password ubuntu
-
-cli_wallet--
-
-docker exec -it bbf57d1c9f73 /usr/local/bin/cli_wallet unlock dennis /// Working 2nd step
-
-docker exec -it 2f77d4f18692 /usr/local/bin/etherium_keys unlock dennis /// Working 2nd step
-
-docker exec -it 7dbce3e8d135 /usr/local/bin/get_dev_key PRODUCTION  productionkey6 productionkey7 productionkey8 productionkey9 productionkey10 productionkey11
-
-dbg_make_uia acloudbank CARBONCRED //Command line token creation
-
-issue_asset acloudbank 1000000 CARBONPESA "" true  //Command line token issuing
-
-
-preimage: 1iAztGVZVMaoFVG4P57f49TrXqR4f2 hash type: sha256
-
-hash: e060ff555f9b62208271e34651f6bc64c2b13a23d3219385f505240f67344ec4 preimage size: 30
-
-```
-
 The entry point simplifies the use of parameters for the `witness_node`
 (which is run by default when spinning up the container).
 
@@ -80,8 +42,6 @@ The entry point simplifies the use of parameters for the `witness_node`
 * `$ACLOUDBANKD_TRUSTED_NODE`
 
 ### Default config
-
-
 
 The default configuration is:
 
